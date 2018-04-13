@@ -1,0 +1,17 @@
+* 2018
+** April
+*** 11
+6 hours actual
+- Initial set up
+- Research TD350
+- Fight with Lenovo software RAID
+- Install CentOS 7
+- Register for Intel Opensource Development
+*** 12
+4 hours actual
+- Install ClearLinux
+- Fight with ClearLinux Xodghes
+*** 13
+
+- Describe to A difference between client & server
+- Brainstorm workarounds for network topology 
