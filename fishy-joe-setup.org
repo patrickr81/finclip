@@ -1,0 +1,29 @@
+* fishy-joe server setup
+
+Mr. Fishy Joe Server is designed to address the requirements of the lab.
+
+** Requirements
+*** R Environment
+**** RStudio Server
+Advantages:
+- Web interface
+Disadvantages
+- Requires open ports
+- Only one session at a time in free version
+**** RStudio Desktop
+Advantages:
+- Multiple sessions
+- Let OS take care of load balancing
+*** Microsoft Access Database
+Can't happen in wine. Too many bugs. Thus, need a hyper-v & microsoft install.
+
+** Equipment
+*** TD350 Server
+**** Processors
+**** HDD
+**** Ethernet
+**** Wireless NIC
+**** GPU
+???
+**** Monitors
+*** Laptop
