@@ -23,4 +23,30 @@ Section Device
   Driver "ast"
 EndSection
 #+END_SRC
-
+*** 14
+- Attempt compilation of RStudio
+- Get frustrated using broken head/master
+- workaround for dependencies - lots of bundles installed since clearlinux uses nonstandard package man
+- checkout version 1.2 because there's an error in master
+- get frustrating build errors
+- realize initialize-common has put newer files into build directory
+- start over by cloning 1.2 in a new directory
+- run into qt5 error building some qt-gstreamer (that I don't even need)
+- download qt5
+- fuck qt5
+- figure out qt-gstreamer isn't what I need anyways
+- gstreamer updates: see https://openwebcraft.com/notes/clearlinux-rstudio-install/
+  - goddam i have to diff the version? how did this ever get included in RStudio?
+  - have to build the gst-plugins-base lib folder by hand. that's what's needed anyways.
+  - use LD_USE_DIR (or whatever it is) smartly to avoid ln-ing a bunch of links to /usr/lib which is where make is searching for the libraries.?
+  - don't forget to make -j16 to waste less time compiling
+ - BUILT ALL TARGETS!!!!!!11!!!!
+ - make install?
+ - compiling permutations? why not threaded?
+ - FINALLY RSTUDIO COMPILED
+ - ALMOST RUNS need some other libraries, so compile qt5, what a beast
+ - IT WORKED - I'm amazed. But Rstudio needs some of these libs, and can't find them
+ - link libraries again by hand. there must be a better way
+ - RSTUDIO WORKS!!!!!! Hacky kludges.
+ - Packing it in for the day.
+ 
