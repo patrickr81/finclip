@@ -10,8 +10,17 @@
 *** 12
 4 hours actual
 - Install ClearLinux
-- Fight with ClearLinux Xodghes
+- Fight with ClearLinux Xorg
 *** 13
-
+5 hours actual
 - Describe to A difference between client & server
 - Brainstorm workarounds for network topology 
+- Research graphics drivers for ClearLinux
+- Install ASPEED 'ast' drivers, and update xorg.conf.d to include 
+#+NAME: 25-ast.conf
+#+BEGIN_SRC
+Section Device
+  Driver "ast"
+EndSection
+#+END_SRC
+
