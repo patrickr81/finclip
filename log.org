@@ -24,6 +24,7 @@ Section Device
 EndSection
 #+END_SRC
 *** 14
+6 hours actual
 - Attempt compilation of RStudio
 - Get frustrated using broken head/master
 - workaround for dependencies - lots of bundles installed since clearlinux uses nonstandard package man
