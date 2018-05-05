@@ -34,14 +34,14 @@ EndSection
 - start over by cloning 1.2 in a new directory
 - run into qt5 error building some qt-gstreamer (that I don't even need)
 - download qt5
-- fuck qt5
+- @#$% qt5
 - figure out qt-gstreamer isn't what I need anyways
 - gstreamer updates: see https://openwebcraft.com/notes/clearlinux-rstudio-install/
   - goddam i have to diff the version? how did this ever get included in RStudio?
   - have to build the gst-plugins-base lib folder by hand. that's what's needed anyways.
   - use LD_USE_DIR (or whatever it is) smartly to avoid ln-ing a bunch of links to /usr/lib which is where make is searching for the libraries.?
   - don't forget to make -j16 to waste less time compiling
- - BUILT ALL TARGETS!!!!!!11!!!!
+ - BUILT ALL TARGETS!!!!!!11!!!
  - make install?
  - compiling permutations? why not threaded?
  - FINALLY RSTUDIO COMPILED
@@ -50,4 +50,23 @@ EndSection
  - link libraries again by hand. there must be a better way
  - RSTUDIO WORKS!!!!!! Hacky kludges.
  - Packing it in for the day.
+ 
+** May
+*** 5
+
+ - Instaled graphics card
+ - Installed wireless NIC
+ - Installing Ubuntu Desktop 18.04LTS (tradeoff of speed/maintainability by Amber)
+ - Formatting software RAID drives that couldn't be repartitioned in Ubuntu
+ - Reinstalling Ubuntu Desktop
+ - Fiddling with BIOS settings
+ - Graphics card works with BIOS, but hangs UEFI boot
+ - Got things booting & NVidia card installed with
+#+BEGIN_SRC
+sudo apt update
+sudo apt upgrade
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt update
+#+END_SRC
+
  
