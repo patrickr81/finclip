@@ -53,7 +53,7 @@ EndSection
  
 ** May
 *** 5
-
+4 hours actual
  - Instaled graphics card
  - Installed wireless NIC
  - Installing Ubuntu Desktop 18.04LTS (tradeoff of speed/maintainability by Amber)
@@ -68,5 +68,20 @@ sudo apt upgrade
 sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt update
 #+END_SRC
+ - Install RStudio by downloading .deb from RStudio website
+#+BEGIN_SRC
+sudo apt install r-base
+sudo apt ingtall gdebi-core // perhaps unneccesary?
+#-END_SRC
+ - Goto rstudio website & download.
+ - Install git & ungit
+#+BEGIN_SRC
+sudo apt install git
+sudo apt install npm
+sudo -H npm install -g ungit
+#+END_SRC
+**** TODO Create custom settings for ungit https://github.com/FredrikNoren/ungit
+- install some benchmarking scripts from https://github.com/alexisph/high_performance_r
+- start download of Intel CC & math libraries
 
  
