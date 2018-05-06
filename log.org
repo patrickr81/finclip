@@ -86,6 +86,11 @@ sudo -H npm install -g ungit
 
 *** 6
 **** TODO Compile R from Source using ICC and MKL
+[[https://aciref.org/on-building-a-fast-r-environment/][Building a fast R environment using ICC and MKL]]
+
 ***** TODO Install ICC
+- trouble with 32 bit libs; probably installed a bunch of cruft by accident
+
+[[https://software.intel.com/en-us/articles/installing-intel-parallel-studio-xe-runtime-2018-using-apt-repository][Intel Parallell Studio Runtime Libraries (including 32-bit runtime)]]
 ***** TODO Clone R Base
 ***** TODO Make Build Etc.
