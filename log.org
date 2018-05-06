@@ -84,4 +84,8 @@ sudo -H npm install -g ungit
 - install some benchmarking scripts from https://github.com/alexisph/high_performance_r
 - start download of Intel CC & math libraries
 
- 
+*** 6
+**** TODO Compile R from Source using ICC and MKL
+***** TODO Install ICC
+***** TODO Clone R Base
+***** TODO Make Build Etc.
